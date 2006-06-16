@@ -1,0 +1,61 @@
+kcheckers
+------------------------------------------
+Qt-based checkers board game
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  qt3-3.3.5-1
+  xorg-x11-base-6.8.2.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.18-1
+  binutils-20050610-1
+  gcc-core-3.4.4-1
+  gcc-g++-3.4.4-1
+  make-3.80-1
+
+Canonical website:
+  http://wibix.de/viewpage.php?page_id=3
+
+Canonical download:
+  http://wibix.de/infusions/pro_download_panel/download.php?catid=1
+
+ -------------------------------------------
+
+Build instructions:
+  unpack kcheckers-0.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./kcheckers-0.6-X.sh all
+
+This will create:
+  /usr/src/kcheckers-0.6-X-src.tar.bz2
+  /usr/src/kcheckers-0.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/kcheckers.exe
+  /usr/share/doc/kcheckers-0.6/AUTHORS
+  /usr/share/doc/kcheckers-0.6/ChangeLog
+  /usr/share/doc/kcheckers-0.6/COPYING
+  /usr/share/doc/kcheckers-0.6/INSTALL
+  /usr/share/doc/kcheckers-0.6/README
+  /usr/share/doc/kcheckers-0.6/TODO
+  /usr/share/kcheckers/kcheckers.pdn
+  /usr/share/kcheckers/kcheckers_de.qm
+  /usr/share/kcheckers/kcheckers_ru.qm
+
+------------------
+
+Port Notes:
+
+----- version 0.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

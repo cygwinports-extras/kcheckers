@@ -1,0 +1,4 @@
+category: Games
+requires: cygwin qt3 xorg-x11-base
+sdesc: "Qt-based checkers board game"
+ldesc: "Qt-based checkers board game"
