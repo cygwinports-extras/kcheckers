@@ -1,0 +1,13 @@
+inherit qt4-qmake
+
+DESCRIPTION="Qt checkers game"
+HOMEPAGE="http://qcheckers.sourceforge.net/"
+SRC_URI="mirror://sourceforge/qcheckers/${P}.tar.gz"
+
+src_install() {
+	cd ${B}
+	qt4_qmake_install
+
+	newicon ${S}/icons/biglogo.png ${PN}.png
+	make_desktop_entry ${PN} KCheckers ${PN}.png "Game;BoardGame;Qt"
+}

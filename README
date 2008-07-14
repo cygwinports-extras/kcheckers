@@ -3,55 +3,99 @@ kcheckers
 Qt-based checkers board game
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  qt3-3.3.5-1
-  xorg-x11-base-6.8.2.0-1
+  cygwin-1.5.25-15
+  libQtCore4-4.4.0-1
+  libQtGui4-4.4.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.18-1
-  binutils-20050610-1
-  gcc-core-3.4.4-1
-  gcc-g++-3.4.4-1
-  make-3.80-1
+  binutils-20080523-2
+  cygport-0.3.13-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
 
 Canonical website:
-  http://wibix.de/viewpage.php?page_id=3
+  http://qcheckers.sourceforge.net/
 
 Canonical download:
-  http://wibix.de/infusions/pro_download_panel/download.php?catid=1
+  http://downloads.sourceforge.net/qcheckers/
 
- -------------------------------------------
+-------------------------------------------
 
 Build instructions:
-  unpack kcheckers-0.6-X-src.tar.bz2
+  unpack kcheckers-0.8.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./kcheckers-0.6-X.sh all
+  cygport ./kcheckers-0.8.1-X.cygport all
 
 This will create:
-  /usr/src/kcheckers-0.6-X-src.tar.bz2
-  /usr/src/kcheckers-0.6-X.tar.bz2
+  /usr/src/kcheckers-0.8.1-X-src.tar.bz2
+  /usr/src/kcheckers-0.8.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/kcheckers.exe
-  /usr/share/doc/kcheckers-0.6/AUTHORS
-  /usr/share/doc/kcheckers-0.6/ChangeLog
-  /usr/share/doc/kcheckers-0.6/COPYING
-  /usr/share/doc/kcheckers-0.6/INSTALL
-  /usr/share/doc/kcheckers-0.6/README
-  /usr/share/doc/kcheckers-0.6/TODO
-  /usr/share/kcheckers/kcheckers.pdn
+  /usr/share/applications/kcheckers.desktop
+  /usr/share/doc/kcheckers-0.8.1/AUTHORS
+  /usr/share/doc/kcheckers-0.8.1/COPYING
+  /usr/share/doc/kcheckers-0.8.1/ChangeLog
+  /usr/share/doc/kcheckers-0.8.1/FAQ
+  /usr/share/doc/kcheckers-0.8.1/INSTALL
+  /usr/share/doc/kcheckers-0.8.1/README
+  /usr/share/doc/kcheckers-0.8.1/TODO
+  /usr/share/kcheckers/AUTHORS
+  /usr/share/kcheckers/COPYING
+  /usr/share/kcheckers/ChangeLog
+  /usr/share/kcheckers/README
   /usr/share/kcheckers/kcheckers_de.qm
-  /usr/share/kcheckers/kcheckers_ru.qm
+  /usr/share/kcheckers/kcheckers_de.ts
+  /usr/share/kcheckers/kcheckers_fr.qm
+  /usr/share/kcheckers/kcheckers_fr.ts
+  /usr/share/kcheckers/kcheckers_ru.ts
+  /usr/share/kcheckers/themes/green/frame.png
+  /usr/share/kcheckers/themes/green/kingblack.png
+  /usr/share/kcheckers/themes/green/kingwhite.png
+  /usr/share/kcheckers/themes/green/manblack.png
+  /usr/share/kcheckers/themes/green/manwhite.png
+  /usr/share/kcheckers/themes/green/theme
+  /usr/share/kcheckers/themes/green/tile1.png
+  /usr/share/kcheckers/themes/green/tile2.png
+  /usr/share/kcheckers/themes/marble/frame.png
+  /usr/share/kcheckers/themes/marble/kingblack.png
+  /usr/share/kcheckers/themes/marble/kingwhite.png
+  /usr/share/kcheckers/themes/marble/manblack.png
+  /usr/share/kcheckers/themes/marble/manwhite.png
+  /usr/share/kcheckers/themes/marble/theme
+  /usr/share/kcheckers/themes/marble/tile1.png
+  /usr/share/kcheckers/themes/marble/tile2.png
+  /usr/share/kcheckers/themes/simple_big/frame.png
+  /usr/share/kcheckers/themes/simple_big/kingblack.png
+  /usr/share/kcheckers/themes/simple_big/kingwhite.png
+  /usr/share/kcheckers/themes/simple_big/manblack.png
+  /usr/share/kcheckers/themes/simple_big/manwhite.png
+  /usr/share/kcheckers/themes/simple_big/theme
+  /usr/share/kcheckers/themes/simple_big/tile1.png
+  /usr/share/kcheckers/themes/simple_big/tile2.png
+  /usr/share/kcheckers/themes/simple_small/frame.png
+  /usr/share/kcheckers/themes/simple_small/kingblack.png
+  /usr/share/kcheckers/themes/simple_small/kingwhite.png
+  /usr/share/kcheckers/themes/simple_small/manblack.png
+  /usr/share/kcheckers/themes/simple_small/manwhite.png
+  /usr/share/kcheckers/themes/simple_small/theme
+  /usr/share/kcheckers/themes/simple_small/tile1.png
+  /usr/share/kcheckers/themes/simple_small/tile2.png
+  /usr/share/pixmaps/kcheckers.png
 
 ------------------
 
 Port Notes:
+
+----- version 0.8.1-1 -----
+Version bump for Qt4.
 
 ----- version 0.6-1 -----
 Initial release for Cygwin.
