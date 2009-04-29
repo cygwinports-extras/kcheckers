@@ -3,17 +3,19 @@ kcheckers
 Qt-based checkers board game
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libQtCore4-4.4.0-1
-  libQtGui4-4.4.0-1
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libQtCore4-4.4.3-10
+  libQtGui4-4.4.3-10
+  libstdc++6-4.3.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080523-2
-  cygport-0.3.13-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  make-3.81-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
 
 Canonical website:
   http://qcheckers.sourceforge.net/
@@ -40,13 +42,12 @@ Files included in the binary package:
 
   /usr/bin/kcheckers.exe
   /usr/share/applications/kcheckers.desktop
-  /usr/share/doc/kcheckers-0.8.1/AUTHORS
-  /usr/share/doc/kcheckers-0.8.1/COPYING
-  /usr/share/doc/kcheckers-0.8.1/ChangeLog
-  /usr/share/doc/kcheckers-0.8.1/FAQ
-  /usr/share/doc/kcheckers-0.8.1/INSTALL
-  /usr/share/doc/kcheckers-0.8.1/README
-  /usr/share/doc/kcheckers-0.8.1/TODO
+  /usr/share/doc/kcheckers/AUTHORS
+  /usr/share/doc/kcheckers/COPYING
+  /usr/share/doc/kcheckers/ChangeLog
+  /usr/share/doc/kcheckers/FAQ
+  /usr/share/doc/kcheckers/README
+  /usr/share/doc/kcheckers/TODO
   /usr/share/kcheckers/AUTHORS
   /usr/share/kcheckers/COPYING
   /usr/share/kcheckers/ChangeLog
@@ -94,11 +95,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.8.1-1 -----
-Version bump for Qt4.
-
------ version 0.6-1 -----
-Initial release for Cygwin.
+----- version 0.8.1-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

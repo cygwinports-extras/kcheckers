@@ -3,6 +3,7 @@ inherit qt4-qmake
 DESCRIPTION="Qt checkers game"
 HOMEPAGE="http://qcheckers.sourceforge.net/"
 SRC_URI="mirror://sourceforge/qcheckers/${P}.tar.gz"
+PATCH_URI="0.8.1-prefix.patch"
 
 src_install() {
 	cd ${B}
