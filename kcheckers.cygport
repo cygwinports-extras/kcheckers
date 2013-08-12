@@ -1,8 +1,13 @@
 inherit qt4-qmake
 
-DESCRIPTION="Qt checkers game"
+NAME="kcheckers"
+VERSION=0.8.1
+RELEASE=10
+CATEGORY="Games"
+SUMMARY="Qt checkers game"
+DESCRIPTION="Qt version of the classic boardgame knows as checkers or draughts."
 HOMEPAGE="http://qcheckers.sourceforge.net/"
-SRC_URI="mirror://sourceforge/qcheckers/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/qcheckers/${NAME}-${VERSION}.tar.gz"
 PATCH_URI="0.8.1-prefix.patch"
 
 src_install() {

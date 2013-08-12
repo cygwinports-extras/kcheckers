@@ -1,4 +1,0 @@
-category: Games
-requires: libgcc1 libQtCore4 libQtGui4 libstdc++6
-sdesc: "Qt checkers board game"
-ldesc: "Qt checkers board game"
